@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sogeti.columbus.sogetinotifier">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round_sogeti"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HistoryPage" />
+        <activity android:name=".AddPage" />
+        <activity android:name=".SettingsPage" />
+        <activity android:name=".DisplayListview" />
+
+        <service android:name=".FirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="d4fa1287180c48ca9a0095d6d1f747c6" />
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/spade_small_icon_transparent"/>
+
+
+    </application>
+
+</manifest>

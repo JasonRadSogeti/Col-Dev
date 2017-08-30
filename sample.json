@@ -1,0 +1,29 @@
+{
+"Notifications":[
+	{
+		"ChannelName":"Button",
+		"ChannelHistory":[
+			{"datetime":"2017-06-17 9:28 pm", "sequenceNumber":"1", "text":""},
+		  	{"datetime":"2017-06-17 9:29 pm", "sequenceNumber":"2", "text":""},
+		  	{"datetime":"2017-06-17 9:32 pm", "sequenceNumber":"3", "text":""}
+		]
+	},
+	{
+		"ChannelName":"Website1",
+		"ChannelHistory":[
+			{"datetime":"2017-06-17 9:30 pm", "sequenceNumber":"1", "text":"alert text #1"},
+  			{"datetime":"2017-06-17 9:36 pm", "sequenceNumber":"2", "text":"alert text #2"}
+		]
+	},
+	{
+		"ChannelName":"All",
+		"ChannelHistory":[
+			{"ChannelName":"Button", "datetime":"2017-06-17 9:28 pm", "sequenceNumber":"1", "text":""},
+			{"ChannelName":"Button", "datetime":"2017-06-17 9:29 pm", "sequenceNumber":"2", "text":""},
+			{"ChannelName":"Website1", "datetime":"2017-06-17 9:30 pm", "sequenceNumber":"3", "text":"alert text #1"},
+			{"ChannelName":"Button", "datetime":"2017-06-17 9:32 pm", "sequenceNumber":"4", "text":""},
+			{"ChannelName":"Website1", "datetime":"2017-06-17 9:36 pm", "sequenceNumber":"5", "text":"alert text #2"}
+		]
+	}
+]
+}

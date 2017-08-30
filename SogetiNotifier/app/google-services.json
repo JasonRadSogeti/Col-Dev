@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "755161048346",
+    "firebase_url": "https://sogetinotifier.firebaseio.com",
+    "project_id": "sogetinotifier",
+    "storage_bucket": "sogetinotifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755161048346:android:d64e0f6176ec1eaa",
+        "android_client_info": {
+          "package_name": "com.sogeti.columbus.sogetinotifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755161048346-aluhvqui7ejl4jigrgsboudc3ddd21ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sogeti.columbus.sogetinotifier",
+            "certificate_hash": "48ecf9c60b611ff6d5996e6616c43c0c8ef16425"
+          }
+        },
+        {
+          "client_id": "755161048346-vvjefep2r2bsbfca9ngbipq72n535sfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSpNj7d5WuFx4I6wh2K9EGlh7i3VmHE0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755161048346-vvjefep2r2bsbfca9ngbipq72n535sfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
